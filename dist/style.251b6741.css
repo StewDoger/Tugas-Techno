@@ -398,6 +398,18 @@ header .main__btn:hover, header .main__btn:focus {
   object-fit: cover;
 }
 
+.about-us__playstore__img {
+  width: 7%;
+  border-radius: 5%;
+  height: 7%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .about-us__member h3 {
   margin-top: 15px;
   font-size: 1.3rem;
