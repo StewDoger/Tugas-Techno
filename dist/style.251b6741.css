@@ -26,7 +26,7 @@ header .main__btn {
   padding: 0.5rem;
   font-weight: 600;
   line-height: 26px;
-  background-color: #ffffff;
+  background-color: #e8eff2;
   border: 2px solid transparent;
   border-radius: 8px;
   text-transform: uppercase;
@@ -357,7 +357,142 @@ header .main__btn:hover, header .main__btn:focus {
   margin: 0 auto;
 }
 
+/* About Us Section */
+.about-us {
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
 
+.about-us__title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-us__title p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.about-us__team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.about-us__member {
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.about-us__member__img {
+  width: 100%;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.about-us__member h3 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.about-us__member p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #777;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.products {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.products__title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.products__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.product-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.product__image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product__title {
+  font-size: 1.25rem;
+  margin: 15px 0 10px;
+}
+
+.product__description {
+  font-size: 1rem;
+  color: #666;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.order__btn.main__btn {
+  text-decoration: none; /* Menghilangkan underline */
+  color: inherit; /* Mengambil warna teks dari elemen induk (seperti warna teks biasa) */
+  display: inline-block; /* Agar link bisa disesuaikan seperti tombol */
+  padding: 10px 20px; /* Penambahan padding agar terlihat seperti tombol */
+  background-color: #ff7b00; /* Warna latar belakang tombol */
+  border-radius: 5px; /* Sudut melengkung pada tombol */
+  text-align: center; /* Menjaga teks tetap berada di tengah */
+}
+
+.order__btn.main__btn:hover {
+  background-color: #ffc039; /* Mengubah warna latar belakang saat hover */
+  color: #000000; /* Mengubah warna teks saat hover */
+}
 
 
 /*# sourceMappingURL=/style.251b6741.css.map */

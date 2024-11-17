@@ -478,3 +478,18 @@ footer {
   text-align: center;
   padding: 15px;
 }
+
+.order__btn.main__btn {
+  text-decoration: none; /* Menghilangkan underline */
+  color: inherit; /* Mengambil warna teks dari elemen induk (seperti warna teks biasa) */
+  display: inline-block; /* Agar link bisa disesuaikan seperti tombol */
+  padding: 10px 20px; /* Penambahan padding agar terlihat seperti tombol */
+  background-color: #ff7b00; /* Warna latar belakang tombol */
+  border-radius: 5px; /* Sudut melengkung pada tombol */
+  text-align: center; /* Menjaga teks tetap berada di tengah */
+}
+
+.order__btn.main__btn:hover {
+  background-color: #ffc039; /* Mengubah warna latar belakang saat hover */
+  color: #000000; /* Mengubah warna teks saat hover */
+}
