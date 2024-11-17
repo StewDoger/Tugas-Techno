@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="icon"
       type="image/png"
@@ -11,8 +10,7 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./styles/style.css" />
-
-    <title>Frontend Mentor | Keycraft pre-launch landing page</title>
+    <title>About Us - Keycraft</title>
   </head>
 
   <body>
@@ -20,114 +18,71 @@
       <header>
         <nav>
           <div class="logo__container">
-            <a href="/" aria-label="well come to keycraft">
+            <a href="/" aria-label="well come to typemaster">
               <img
                 class="image__item"
-                src="./assets/shared/logo.svg"
-                alt="keycraft international"
+                src="./assets/shared/KC logo.webp"
+                alt="typemaster international"
               />
             </a>
           </div>
-        </nav>
-        <!--hero section-->
-        <div class="hero">
-          <div class="hero__content">
-            <h1 class="hero__content__title">Keycraft keyboard</h1>
-            <p class="hero__content__description">
-              Welcome to Keycraft Keyboard—where your typing experience meets creativity and comfort.
-              Explore our custom mechanical keyboards, designed to combine premium quality with endless personalization options.
-              Build a keyboard that perfectly suits your style, whether for work, gaming, or everyday use.
-            </p>
-            <div class="hero__content__primary">
-              <button class="hero__content__btn main__btn">
-                Order now
-              </button>
-              <span class="hero__content__span">Release on play store </span>
-            </div>
+          <div class="order">
+            <button class="order__btn main__btn">Order now</button>
+            <button <a href="about-us.html" class="order__btn main__btn">About Us</a></button>
+            <button <a href="product.html" class="order__btn main__btn">Products</a>
           </div>
-          <!--hero image-->
-          <div class="hero__img">
-            <picture>
-              <source
-                media="(max-width:680px)"
-                srcset="./assets/mobile/image-keyboard.jpg"
-              />
-              <source
-                media="(min-width:681px )"
-                srcset="./assets/tablet/image-keyboard.jpg"
-              />
-              <source
-                media="(min-width:980px )"
-                srcset="./assets/desktop/image-keyboard.jpg"
-              />
-              <img
-                class="hero__img__img image__item"
-                src="./assets/mobile/image-keyboard.jpg"
-                alt="general keyboard"
-              />
-            </picture>
-          </div>
-        </div>
       </header>
-      <!--main section-->
-      <main>
-        <!--primary section-->
-        <div class="primary">
-          <div class="primary__img1">
-            <picture>
-              <source
-                media="(max-width: 680px )"
-                srcset="./assets/mobile/image-phone-and-keyboard.jpg"
-              />
-              <source
-                media="(min-width:681px )"
-                srcset="./assets/tablet/image-phone-and-keyboard.jpg"
-              />
-              <source
-                media="(min-width:980px )"
-                srcset="./assets/desktop/image-phone-and-keyboard.jpg"
-              />
-              <img
-                class="primary__img1__img image__item"
-                src="./assets/mobile/image-phone-and-keyboard.jpg"
-                alt="phone and keyboard"
-              />
-            </picture>
-          </div>
-          <div class="primary__img2">
-            <picture>
-              <source
-                media="(max-width: 680px )"
-                srcset="./assets/mobile/image-glass-and-keyboard.jpg"
-              />
-              <source
-                media="(min-width:681px )"
-                srcset="./assets/tablet/image-glass-and-keyboard.jpg"
-              />
-              <source
-                media="(min-width:980px )"
-                srcset="./assets/desktop/image-glass-and-keyboard.jpg"
-              />
-              <img
-                class="primary__img2__img image__item"
-                src="./assets/mobile/image-glass-and-keyboard.jpg"
-                alt="glass and keyboard"
-              />
-            </picture>
-          </div>
-          <div class="primary__content">
-            <h2 class="primary__content__title">
-              Keycraft Custom
-            </h2>
-            <p class="primary__content__description">
-              Design your dream mechanical keyboard with Keycraft Custom!
-              Choose your layout, switches, keycaps, and RGB lighting to match your preferences.
-              Enjoy a personalized, comfortable, and unique typing experience—crafted entirely to reflect your style.
-            </p>
-          </div>
+
+      <!-- About Us Section -->
+      <section class="about-us">
+        <div class="about-us__title">
+          <h1>Meet Our Team</h1>
+          <p>We are a passionate team of keyboard enthusiasts who bring creativity and craftsmanship to every design.</p>
         </div>
 
-      </main>
+        <div class="about-us__team">
+          <!-- Member 1 -->
+          <div class="about-us__member">
+            <img src="./assets/team/member1.jpg" alt="Team Member 1" class="about-us__member__img" />
+            <h3>John Doe</h3>
+            <p>Lead Designer</p>
+            <p>John is the mastermind behind our keyboard designs, focusing on creating functional yet aesthetic layouts.</p>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="about-us__member">
+            <img src="./assets/team/member2.jpg" alt="Team Member 2" class="about-us__member__img" />
+            <h3>Jane Smith</h3>
+            <p>Engineer</p>
+            <p>Jane is a mechanical keyboard engineer who ensures every build is smooth, precise, and works perfectly.</p>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="about-us__member">
+            <img src="./assets/team/member3.jpg" alt="Team Member 3" class="about-us__member__img" />
+            <h3>Michael Lee</h3>
+            <p>Software Developer</p>
+            <p>Michael develops software that enhances the experience of our custom keyboards with RGB lighting and macros.</p>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="about-us__member">
+            <img src="./assets/team/member4.jpg" alt="Team Member 4" class="about-us__member__img" />
+            <h3>Emily Chen</h3>
+            <p>Marketing Specialist</p>
+            <p>Emily is in charge of communicating the Keycraft story, helping us connect with keyboard enthusiasts worldwide.</p>
+          </div>
+
+          <!-- Member 5 -->
+          <div class="about-us__member">
+            <img src="./assets/team/member5.jpg" alt="Team Member 5" class="about-us__member__img" />
+            <h3>David Kim</h3>
+            <p>Community Manager</p>
+            <p>David works to build a vibrant community of Keycraft users, organizing events and gathering feedback to improve our products.</p>
+          </div>
+        </div>
+      </section>
+
       <footer>
         <p class="footer__content">
           <span>KeyCraft 2024 </span> | All Rights Reserved
